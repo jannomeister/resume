@@ -1,45 +1,38 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Portfolio extends Component {
-  render() {
+const Portfolio = (props) => {
 
-    if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
-            <a href={projects.url} title={projects.title} target="_blank" rel="noopener noreferrer">
-               <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
-                  </div>
-                </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
+  const Project = ({ item }) => (
+    <div className="columns portfolio-item">
+      <div className="item-wrap">
+        <a href={item.url} title={item.title} target="_blank" rel="noopener noreferrer">
+          <img src={`images/portfolio/${item.image}`} alt={item.title} />
+          <div className="overlay">
+            <div className="portfolio-item-meta">
+              <h5>{item.title}</h5>
+              <p>{item.category}</p>
+            </div>
           </div>
-        </div>
-      })
-    }
+          <div className="link-icon"><i className="fa fa-link"></i></div>
+        </a>
+      </div>
+    </div>
+  );
 
-    return (
-      <section id="portfolio">
-
+  return (
+    <section id="portfolio">
       <div className="row">
-
          <div className="twelve columns collapsed">
-
             <h1>Check Out Some of My Personal Works.</h1>
-
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+              {props.data && props.data.projects.map(project => (
+                <Project key={project.title} item={project} />
+              ))}
             </div>
           </div>
       </div>
-   </section>
-    );
-  }
+    </section>
+  )
 }
 
 export default Portfolio;

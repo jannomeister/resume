@@ -34,6 +34,7 @@
     ]
   },
   "resume":{
+    "techMessage": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
     "skillmessage":"These are my notable skills",
     "education":[
       {
@@ -85,6 +86,48 @@
         "title":"Mobile Application Developer",
         "years":"June 2016 - April 2017",
         "description":"Developing mobile apps using up-to-date technologies."
+      }
+    ],
+    "favoriteTech": [
+      {
+        "name": "Git",
+        "image": "git.png",
+        "description": "I use Git for all of my projects so far. I have used Git for version control in my own personal projects or in my teams."
+      },
+      {
+        "name": "Angular",
+        "image": "angular.png",
+        "description": "I used Angular for almost 85% of my projects, from building web applications to creating mobile applications."
+      },
+      {
+        "name": "ReactJS",
+        "image": "react.jpg",
+        "description": "I am fairly new to React and really did not like it at first. But when I try to give it a shot, that's the time I already fall in love with it."
+      },
+      {
+        "name": "Nativescript",
+        "image": "nativescript.png",
+        "description": "I used it because it's truly a native cross-platform framework and it was built using javascript, Angular and ReactJS are also supported!"
+      },
+      {
+        "name": "NodeJS",
+        "image": "nodejs.png",
+        "description": "This tech helps me to build server side application using it's awesome frameworks."
+      },
+      {
+        "name": "ExpressJS",
+        "image": "nodejs.png",
+        "description": "This is the first framework of NodeJS I used when I'm building server side applications and this is still my favorite."
+      },
+      {
+        "name": "NestJS",
+        "image": "nestjs.webp",
+        "description": "This is my all time favorite in all of the server side frameworks that I used. This was built using Typescript and it also supports ExpressJS and Fastify."
+      },
+      {
+        "name": "Bootstrap 4",
+        "image": "bootstrap4.jpg",
+        "description": "I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others."
       }
     ],
     "skills":[

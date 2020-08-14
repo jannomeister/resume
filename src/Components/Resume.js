@@ -56,7 +56,7 @@ const Resume = (props) => {
 
         <ul className="bgrid-quarters s-bgrid-thirds cf">
           {items.map((item, index) => (
-            <div className="columns feature-item" style={{ textAlign: 'center', marginTop: '2.5em', paddingLeft: '2em', paddingRight: '2em' }}>
+            <div key={item.name + index} className="columns feature-item" style={{ textAlign: 'center', marginTop: '2.5em', paddingLeft: '2em', paddingRight: '2em' }}>
               <img className="skill" style={{ maxWidth: '65%' }} src={`images/favorite_tech/${item.image}`} alt={item.name} />
               <h5>{item.name}</h5>
               <p style={{ overflowWrap: 'break-word' }}>{item.description}</p>

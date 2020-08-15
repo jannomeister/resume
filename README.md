@@ -1,68 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to my resume website
+![Janno's resume website](https://i.imgur.com/Em41LLN.png)
+### <a href="https://resume-hazel.vercel.app/">ONLINE DEMO<a/>
 
-## Available Scripts
+## Description
+This is a personal resume website. I built this so that I have a centralize resume that is accessible online. With the help of this [ReactJS template by Tim Baker](https://github.com/tbakerx/react-resume-template), I built my personalized reactJS resume website within a couple of minutes. Check it out if you want to create your own!
 
-In the project directory, you can run:
+## Make it your own!
+### 1. Fork this repo
+Just click the fork button viola its yours now!
+### 2. Clone your forked repo
+Just clone the forked repo to your local machine `git clone [your_forked_repo` to start changing it.
+### 3. Make any changes you want
+All the necessary information are found inside the `resumeData.json` under `public` folder. Also, all the needed images are found uner `public/images` folder
+### 4. Enjoy!
+With just a few commands you can run this web app. Just execute `npm install` and run using `npm start` command. Congratulations, for having your own personalize resume website!
 
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Credits
+* Tim Baker for this [awesome template](https://github.com/tbakerx/react-resume-template)
+* My colleague [@razz-21](https://github.com/razz-21) for submitting a [pull request fix](https://github.com/jannomeister/resume/pull/7) for the background image blurr

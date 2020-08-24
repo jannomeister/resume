@@ -1,6 +1,6 @@
 # Welcome to my resume website
 ![Janno's resume website](https://i.imgur.com/Em41LLN.png)
-### <a href="https://resume-hazel.vercel.app/">ONLINE DEMO<a/>
+### <a href="https://resume.jannomeister.com/">ONLINE DEMO<a/>
 
 ## Description
 This is a personal resume website. I built this so that I have a centralize resume that is accessible online. With the help of this [ReactJS template by Tim Baker](https://github.com/tbakerx/react-resume-template), I built my personalized reactJS resume website within a couple of minutes. Check it out if you want to create your own!

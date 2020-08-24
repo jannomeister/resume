@@ -11,7 +11,7 @@ const Header = (props) => {
       setName(props.data.name);
       setOccupation(props.data.occupation);
       setDescription(props.data.description);
-      setCity(props.data.city);
+      setCity(props.data.address.city);
     }
   }, [props.data]);
 

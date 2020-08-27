@@ -182,6 +182,12 @@
         "category":"A React based resume website template",
         "image":"resume-website.png",
         "url":"https://resume-hazel.vercel.app"
+      },
+      {
+        "title":"Quote Randomizer",
+        "category":"A quote randomizer for programmers",
+        "image":"quote-randomizer.png",
+        "url":"https://jannomeister.github.io/programmer-quote-randomizer/"
       }
     ]
   },

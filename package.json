@@ -10,7 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.1.2",
-    "react-scripts": "3.4.2"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -19,6 +19,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +41,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "gh-pages": "^3.1.0",
+    "husky": "^4.3.0"
   }
 }

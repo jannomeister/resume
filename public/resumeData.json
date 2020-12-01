@@ -1,91 +1,96 @@
 {
   "main": {
-    "name":"Janno Tabamo",
-    "occupation":"Software developer",
-    "description":"I have over 4 years of experience in Software development. I developed backend solutions and frontend/mobile applications for companies and startups to make their idea into a solid business",
-    "image":"profilepic.jpg",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "name": "Janno Tabamo",
+    "occupation": "Software developer",
+    "description": "I have over 4 years of experience in Software development. I developed backend solutions and frontend/mobile applications for companies and startups to make their idea into a solid business",
+    "image": "profilepic.jpg",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "jannotabamo@gmail.com",
     "phone": "",
-    "address":{
-      "street":"(Your Street)",
-      "city":"Cagayan de Oro",
-      "state":"Misamis Oriental",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Cagayan de Oro",
+      "state": "Misamis Oriental",
       "zip": "9000"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/jannotabamo",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/jannotabamo",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jannomeister",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "http://instagram.com/jannomeister",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/jannomeister",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/jannomeister",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "stackoverflow",
+        "url": "https://stackoverflow.com/users/4352453/jannomeister",
+        "className": "fa fa-stack-overflow"
       }
     ]
   },
-  "resume":{
+  "resume": {
     "techMessage": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
-    "skillmessage":"These are my notable skills",
-    "education":[
+    "skillmessage": "These are my notable skills",
+    "education": [
       {
-        "school":"Mindanao University of Scient and Technology",
-        "degree":"BS Information Technology",
-        "graduated":"March 2016",
-        "description":"This was the time that I honed my experience in software development while enjoying my college life."
+        "school": "Mindanao University of Scient and Technology",
+        "degree": "BS Information Technology",
+        "graduated": "March 2016",
+        "description": "This was the time that I honed my experience in software development while enjoying my college life."
       },
       {
-        "school":"Mis. Oriental General Comprehensive High School",
-        "degree":"High School Graduate",
-        "graduated":"March 2012",
-        "description":"This was the time that I learned teamwork and friendship."
+        "school": "Mis. Oriental General Comprehensive High School",
+        "degree": "High School Graduate",
+        "graduated": "March 2012",
+        "description": "This was the time that I learned teamwork and friendship."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"GrackleDocs",
-        "title":"Full-Stack Engineer",
-        "years":"September 2019 - Present",
-        "description":"Reporting to the CEO I am responsible for managing the frontend/backend architecture, implemented continous integration and deployment, quality assurance, documentation, and release management."
+        "company": "GrackleDocs",
+        "title": "Full-Stack Engineer",
+        "years": "September 2019 - Present",
+        "description": "Reporting to the CEO I am responsible for managing the frontend/backend architecture, implemented continous integration and deployment, quality assurance, documentation, and release management."
       },
       {
-        "company":"Hyperstacks, Inc.",
-        "title":"Full-Stack Developer",
-        "years":"April 2018 - Present",
-        "description":"Developing Front-End apps, maintaining client's existing apps, developing back-end solutions, managing databases, implementing continuous integration and deployment."
+        "company": "Hyperstacks, Inc.",
+        "title": "Full-Stack Developer",
+        "years": "April 2018 - Present",
+        "description": "Developing Front-End apps, maintaining client's existing apps, developing back-end solutions, managing databases, implementing continuous integration and deployment."
       },
       {
-        "company":"Hyperstacks, Inc.",
-        "title":"Mobile Application Developer",
-        "years":"November 2017 - April 2018",
-        "description":"Developing mobile apps using up-to-date technologies."
+        "company": "Hyperstacks, Inc.",
+        "title": "Mobile Application Developer",
+        "years": "November 2017 - April 2018",
+        "description": "Developing mobile apps using up-to-date technologies."
       },
       {
-        "company":"Hyperstacks, Inc.",
-        "title":"Front-End Developer",
-        "years":"October 2016 - November 2017",
-        "description":"Responsible in developing websites or web applications for the client's businesses."
+        "company": "Hyperstacks, Inc.",
+        "title": "Front-End Developer",
+        "years": "October 2016 - November 2017",
+        "description": "Responsible in developing websites or web applications for the client's businesses."
       },
       {
-        "company":"Centennial Fast Technology Solutions",
-        "title":"Mobile Application Developer",
-        "years":"April 2017 - October 2017",
-        "description":"Developing mobile apps using up-to-date technologies."
+        "company": "Centennial Fast Technology Solutions",
+        "title": "Mobile Application Developer",
+        "years": "April 2017 - October 2017",
+        "description": "Developing mobile apps using up-to-date technologies."
       },
       {
-        "company":"Lightbreak Games",
-        "title":"Mobile Application Developer",
-        "years":"June 2016 - April 2017",
-        "description":"Developing mobile apps using up-to-date technologies."
+        "company": "Lightbreak Games",
+        "title": "Mobile Application Developer",
+        "years": "June 2016 - April 2017",
+        "description": "Developing mobile apps using up-to-date technologies."
       }
     ],
     "favoriteTech": [
@@ -130,76 +135,76 @@
         "description": "I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others."
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Javascript",
-        "level":"90%"
+        "name": "Javascript",
+        "level": "90%"
       },
       {
-        "name":"Typescript",
-        "level":"85%"
+        "name": "Typescript",
+        "level": "85%"
       },
       {
-        "name":"Angular",
-        "level":"85%"
+        "name": "Angular",
+        "level": "85%"
       },
       {
-        "name":"ReactJs",
-        "level":"75%"
+        "name": "ReactJs",
+        "level": "75%"
       },
       {
-        "name":"Nativescript",
-        "level":"90%"
+        "name": "Nativescript",
+        "level": "90%"
       },
       {
-        "name":"MySQL/PostgreSQL/MongoDB",
-        "level":"85%"
+        "name": "MySQL/PostgreSQL/MongoDB",
+        "level": "85%"
       },
       {
-        "name":"Node.js",
-        "level":"85%"
+        "name": "Node.js",
+        "level": "85%"
       },
       {
-        "name":"Express.js/Sails.js/Nest.js",
-        "level":"85%"
+        "name": "Express.js/Sails.js/Nest.js",
+        "level": "85%"
       },
       {
-        "name":"Docker",
-        "level":"75%"
+        "name": "Docker",
+        "level": "75%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Pathfinding Visualizer",
-        "category":"Show different kinds of Pathfinding Algorithms",
-        "image":"pathfinder.png",
-        "url":"https://jannomeister.github.io/pathfinder"
+        "title": "Pathfinding Visualizer",
+        "category": "Show different kinds of Pathfinding Algorithms",
+        "image": "pathfinder.png",
+        "url": "https://jannomeister.github.io/pathfinder"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.png",
-        "url":"https://resume.jannomeister.com"
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.png",
+        "url": "https://resume.jannomeister.com"
       },
       {
-        "title":"Quote Randomizer",
-        "category":"A quote randomizer for programmers",
-        "image":"quote-randomizer.png",
-        "url":"https://jannomeister.github.io/programmer-quote-randomizer/"
+        "title": "Quote Randomizer",
+        "category": "A quote randomizer for programmers",
+        "image": "quote-randomizer.png",
+        "url": "https://jannomeister.github.io/programmer-quote-randomizer/"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
       }
     ]
   }

@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "21-razz",
+      "name": "Ernesto Razo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70556094?v=4",
+      "profile": "https://github.com/21-razz",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "resume",
+  "projectOwner": "jannomeister",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

@@ -1,4 +1,7 @@
 # Welcome to my resume website
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Janno's resume website](https://i.imgur.com/Em41LLN.png)
 ### <a href="https://resume.jannomeister.com/">ONLINE DEMO<a/>
 
@@ -18,3 +21,23 @@ With just a few commands you can run this web app. Just execute `npm install` an
 ## Credits
 * Tim Baker for this [awesome template](https://github.com/tbakerx/react-resume-template)
 * My colleague [@razz-21](https://github.com/razz-21) for submitting a [pull request fix](https://github.com/jannomeister/resume/pull/7) for the background image blurr
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/21-razz"><img src="https://avatars.githubusercontent.com/u/70556094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ernesto Razo</b></sub></a><br /><a href="https://github.com/jannomeister/resume/commits?author=21-razz" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

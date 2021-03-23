@@ -1,11 +1,14 @@
 # Welcome to my resume website
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 ![Janno's resume website](https://i.imgur.com/Em41LLN.png)
 ### <a href="https://resume.jannomeister.com/">ONLINE DEMO<a/>
 
 ## Description
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 This is a personal resume website. I built this so that I have a centralize resume that is accessible online. With the help of this [ReactJS template by Tim Baker](https://github.com/tbakerx/react-resume-template), I built my personalized reactJS resume website within a couple of minutes. Check it out if you want to create your own!
 
 ## Make it your own!

@@ -180,7 +180,7 @@
         "title": "Pathfinding Visualizer",
         "category": "Show different kinds of Pathfinding Algorithms",
         "image": "pathfinder.png",
-        "url": "https://jannomeister.github.io/pathfinder"
+        "url": "https://pathfinder.jannomeister.com"
       },
       {
         "title": "Resume Website",
@@ -192,7 +192,7 @@
         "title": "Quote Randomizer",
         "category": "A quote randomizer for programmers",
         "image": "quote-randomizer.png",
-        "url": "https://jannomeister.github.io/programmer-quote-randomizer/"
+        "url": "https://quote-randomizer.jannomeister.com"
       }
     ]
   },

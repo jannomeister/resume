@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "release": "git status && release-it",
+    "release": "release-it",
     "release:test": "release-it --dry-run"
   },
   "dependencies": {

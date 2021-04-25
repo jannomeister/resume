@@ -1,0 +1,35 @@
+name: release-on-push
+on:
+  push:
+    branches:
+      - "main"
+  pull_request: {}
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: ${{ github.repository == 'jannomeister/resume' &&
+      contains('refs/heads/main,refs/heads/beta,refs/heads/next,refs/heads/alpha',
+      github.ref) && github.event_name == 'push' }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: ⎔ Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: 📥 Download deps
+        uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
+        env:
+          HUSKY_SKIP_INSTALL: true
+
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - run: npm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

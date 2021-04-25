@@ -1,6 +1,8 @@
 {
   "hooks": {
-    "before:init": "git fetch --prune --prune-tags origin"
+    "before:init": "git fetch --prune --prune-tags origin",
+    "after:bump": "npm run build",
+    "after:release": "echo Successfully released v${version} to ${repo.repository}."
   },
   "git": {
     "requireCleanWorkingDir": false

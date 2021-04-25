@@ -57,16 +57,22 @@
     ],
     "work": [
       {
-        "company": "GrackleDocs",
-        "title": "Full-Stack Engineer",
-        "years": "September 2019 - Present",
-        "description": "Reporting to the CEO I am responsible for managing the frontend/backend architecture, implemented continous integration and deployment, quality assurance, documentation, and release management."
-      },
-      {
         "company": "Hyperstacks, Inc.",
         "title": "Full-Stack Developer",
         "years": "April 2018 - Present",
         "description": "Developing Front-End apps, maintaining client's existing apps, developing back-end solutions, managing databases, implementing continuous integration and deployment."
+      },
+      {
+        "company": "Captivate IO Ltd",
+        "title": "Full-Stack Developer (Part-time)",
+        "years": "April 2018 - Present",
+        "description": "Working as a part-time freelance, I am responsible for maintaining and developing their web and back-end applications."
+      },
+      {
+        "company": "GrackleDocs",
+        "title": "Full-Stack Engineer",
+        "years": "September 2019 - December 2020",
+        "description": "Reporting to the CEO I am responsible for managing the frontend/backend architecture, implemented continous integration and deployment, quality assurance, documentation, and release management."
       },
       {
         "company": "Hyperstacks, Inc.",
@@ -107,7 +113,7 @@
       {
         "name": "ReactJS",
         "image": "react.jpg",
-        "description": "I am fairly new to React and really did not like it at first. But when I try to give it a shot, that's the time I already fall in love with it."
+        "description": "I used it because it's easy to use and and it's very awesome when you are building or prototyping personal projects."
       },
       {
         "name": "Nativescript",
@@ -150,7 +156,7 @@
       },
       {
         "name": "ReactJs",
-        "level": "75%"
+        "level": "95%"
       },
       {
         "name": "Nativescript",

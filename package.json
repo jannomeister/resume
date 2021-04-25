@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "release": "release-it"
+    "release": "git status && release-it"
   },
   "dependencies": {
     "jquery": "^3.6.0",

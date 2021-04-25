@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "release": "release-it"
   },
   "dependencies": {
     "jquery": "^3.6.0",
@@ -32,6 +33,7 @@
     "husky": "^4.3.8",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
+    "release-it": "^14.6.1",
     "vite": "^2.1.5"
   },
   "husky": {
